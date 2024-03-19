@@ -1,0 +1,14 @@
+.thumbnail {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0, 0, 0); /* Add drop shadow effect to thumbnails */
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+}
+
+.thumbnail:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 0); /* Add stronger drop shadow on hover */
+}
+
+.fullImageView {
+    -fx-border-color: black; /* Add border to full image */
+    -fx-border-width: 1px;
+    -fx-padding: 10px; /* Add padding around full image */
+}
